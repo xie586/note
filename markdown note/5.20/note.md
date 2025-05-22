@@ -59,6 +59,7 @@ INCLUDE = -I./include -Ofast -march=native
  ![如图](image-4.png)
 
 - matmul_Ofast_openmp_block_mkl:mkl指英特尔数学核心函数库（Intel Math Kernel Library），集成了大量高效的数学运算函数。此版本借助MKL库中针对矩阵运算优化的函数，结合前面的优化策略，进一步优化矩阵乘法性能 。
+![如图](image-5.png)
  
 - matmul_Ofast_openmp_block_openblas：可能是在前面优化基础上，结合了OpenBLAS（一个优化的BLAS实现，BLAS是基本线性代数子程序库）等相关线性代数库进行优化.
  
