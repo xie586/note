@@ -62,6 +62,7 @@ INCLUDE = -I./include -Ofast -march=native
 ![如图](image-5.png)
  
 - matmul_Ofast_openmp_block_openblas：可能是在前面优化基础上，结合了OpenBLAS（一个优化的BLAS实现，BLAS是基本线性代数子程序库）等相关线性代数库进行优化.
+![如图](image-6.png)
  
 - matmul.tar.gz:是一个压缩存档文件，可能包含了上述与矩阵乘法相关的代码文件、配置文件等内容，用于项目的打包、分发和备份 。
 ### Ofast
