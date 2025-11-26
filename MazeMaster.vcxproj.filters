@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chooselevelwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mapeditwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mazedata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="playwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="chooselevelwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="imgbutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mapeditwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="mazedata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="playwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="tile.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="chooselevelwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="mapeditwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="playwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mazedata\1.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\10.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\11.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\12.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\13.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\14.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\15.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\16.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\2.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\3.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\4.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\5.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\6.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\7.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\8.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mazedata\9.mazedata">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ButtonSound.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LevelFailSound.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LevelWinSound.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\aboutBtn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\backBtn_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\backBtn_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\background.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\background2.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\chooseBtn_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\chooseBtn_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\destination.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\editBtn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\exitBtn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\failed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ground.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\loadBtn_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\loadBtn_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\minusBtn_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\minusBtn_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\noWayBtn_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\noWayBtn_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\plusBtn_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\plusBtn_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\randomBtn_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\randomBtn_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="res.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="res\saveBtn_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\saveBtn_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\solveBtn_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\solveBtn_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\startBtn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\starting_place.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\succeed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\wall.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\tupian1\图片\titile.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
